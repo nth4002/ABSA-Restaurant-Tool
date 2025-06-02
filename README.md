@@ -11,22 +11,17 @@ Repo này chứa mã nguồn cho một ứng dụng web hỗ trợ phân tích c
 
 1.  **Clone Repository:**
     ```bash
-    git clone [URL_REPO_CUA_BAN]
-    cd [TEN_THU_MUC_REPO]
+    git clone https://github.com/nth4002/ABSA-Restaurant-Tool.git
+    cd ABSA-Restaurant-Tool
     ```
 
 2.  **Cài đặt thư viện:**
-    (Nếu có `requirements.txt`)
     ```bash
     pip install -r requirements.txt
     ```
-    (Nếu không, cài đặt thủ công các thư viện cần thiết)
-    ```bash
-    pip install streamlit pandas numpy scikit-learn joblib emoji flashtext
-    ```
 
 3.  **Mô Hình:**
-    *   Đảm bảo bạn có tệp mô hình `pipe.joblib` đã được huấn luyện.
+    *   Phải đảm bảo bạn có file model `pipe.joblib` đã được huấn luyện trong root directory
     *   Đặt tệp này vào thư mục `./model/` (tạo thư mục `model` nếu chưa có).
 
 ## Chạy Ứng Dụng
