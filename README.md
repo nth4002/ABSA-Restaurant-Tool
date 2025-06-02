@@ -1,45 +1,37 @@
-# Aspect-Based Sentiment Analysis for Restaurant
+# Công Cụ Phân Tích Cảm Xúc Đa Khía Cạnh Nhà Hàng
 
-## Tool
+Repo này chứa mã nguồn cho một ứng dụng web hỗ trợ phân tích cảm xúc đa khía cạnh (Aspect-Based Sentiment Analysis - ABSA) cho các đánh giá nhà hàng. Ứng dụng bao gồm các công cụ chính: Tiền xử lý dữ liệu, Gán nhãn dữ liệu, và Phân loại câu đơn.
 
-### Features
+## Yêu Cầu
 
-- Classify a sentence
-- Annotate data (for training, testing...)
-- Compare results (between annotators)
+*   Python 3.8+
+*   Các thư viện được liệt kê trong `requirements.txt` (nếu có, hoặc bạn có thể liệt kê các thư viện chính như `streamlit`, `pandas`, `numpy`, `scikit-learn`, `joblib`, `emoji`, `flashtext`).
 
-### Offline
+## Cài Đặt
 
-1. `pip install -r requirements.txt`
-2. `streamlit run app.py`
+1.  **Clone Repository:**
+    ```bash
+    git clone [URL_REPO_CUA_BAN]
+    cd [TEN_THU_MUC_REPO]
+    ```
 
-### Online
+2.  **Cài đặt thư viện:**
+    (Nếu có `requirements.txt`)
+    ```bash
+    pip install -r requirements.txt
+    ```
+    (Nếu không, cài đặt thủ công các thư viện cần thiết)
+    ```bash
+    pip install streamlit pandas numpy scikit-learn joblib emoji flashtext
+    ```
 
-👉 [Live App](https://share.streamlit.io/thinhntr/absa/main/app.py) 👈
+3.  **Mô Hình:**
+    *   Đảm bảo bạn có tệp mô hình `pipe.joblib` đã được huấn luyện.
+    *   Đặt tệp này vào thư mục `./model/` (tạo thư mục `model` nếu chưa có).
 
-## Note
+## Chạy Ứng Dụng
 
-- `SAEvaluate.java`: official evaluation tool from vlsp.org.vn
-- `app.py`: web app to classify, annotate data, and compare annotated results
-- `change_format.py`: convert original data to dataframe, and vice versa
-- `notebook.ipynb`: training notebook
-- `model/pipe.joblib`: trained model (based on Logistic Regression)
-- `data/original`: original data
-- `data/csv`: new format (converted from original data using `change_format.py`)
+Sử dụng Streamlit để chạy ứng dụng:
 
-## Screenshots
-
-### Classify user sentence
-![](https://imgur.com/ZbnsTu1.png)
-
-### Annotate raw data
-![](https://imgur.com/ryiAjvC.png)
-
-### Compare labeled results between annotators
-![](https://imgur.com/nkCe96x.png)
-
-## References
-
-1. [VLSP 2018 - Aspect Based Sentiment Analysis (VABSA 2018)](https://vlsp.org.vn/vlsp2018/eval/sa)
-2. [Annotation Guidelines](https://vlsp.org.vn/sites/default/files/2019-06/Guidelines-SA-Restaurant%20%285-3-2018%29.pdf)
-3. [NLP@UIT at VLSP 2018: A SUPERVISED METHOD FOR ASPECT BASED SENTIMENT ANALYSIS](https://drive.google.com/file/d/1OacrdWtr47XlRlTXVsuYN7WhLdaPAeU-/view)
+```bash
+streamlit run app.py
