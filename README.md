@@ -3,8 +3,8 @@
 Repo này chứa mã nguồn cho một ứng dụng web hỗ trợ phân tích cảm xúc đa khía cạnh (Aspect-Based Sentiment Analysis - ABSA) cho các đánh giá nhà hàng. Ứng dụng bao gồm các công cụ chính: Tiền xử lý dữ liệu, Gán nhãn dữ liệu, và Phân loại câu đơn. 
 
 Ngoài pre-processing tool, thì annotation tool có 2 loại. 
-A, Manually Annotation Tool: gán nhãn thủ công được viết bằng html , js, css.
-B, Semi-Annotation Tool: gán nhãn bán tự động sử dụng mô hình học máy
+*  Manually Annotation Tool: gán nhãn thủ công được viết bằng html , js, css.
+*  Semi-Annotation Tool: gán nhãn bán tự động sử dụng mô hình học máy
 
 ## Yêu Cầu
 
