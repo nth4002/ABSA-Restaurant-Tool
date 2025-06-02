@@ -4,7 +4,7 @@ Repo này chứa mã nguồn cho một ứng dụng web hỗ trợ phân tích c
 
 Ngoài pre-processing tool, thì annotation tool có 2 loại. 
 A, Manually Annotation Tool: gán nhãn thủ công được viết bằng html , js, css.
-B, Semi-Annotation Tool: gán nhãn bán tự động
+B, Semi-Annotation Tool: gán nhãn bán tự động sử dụng mô hình học máy
 
 ## Yêu Cầu
 
