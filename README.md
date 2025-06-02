@@ -34,3 +34,6 @@ Sử dụng Streamlit để chạy ứng dụng:
 
 ```bash
 streamlit run main.py
+```
+## Video Demo Cach Su Dung Tool
+Link: [Demo](https://drive.google.com/file/d/1d5xbOJdWVT8MvvJTEn-7XgjABFRqKSYb/view?usp=sharing)
