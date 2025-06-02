@@ -29,4 +29,4 @@ Repo này chứa mã nguồn cho một ứng dụng web hỗ trợ phân tích c
 Sử dụng Streamlit để chạy ứng dụng:
 
 ```bash
-streamlit run app.py
+streamlit run main.py
