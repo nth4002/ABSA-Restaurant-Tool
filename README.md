@@ -9,7 +9,7 @@ Ngoài pre-processing tool, thì annotation tool có 2 loại.
 ## Yêu Cầu
 
 *   Python 3.8+
-*   Các thư viện được liệt kê trong `requirements.txt` (nếu có, hoặc bạn có thể liệt kê các thư viện chính như `streamlit`, `pandas`, `numpy`, `scikit-learn`, `joblib`, `emoji`, `flashtext`).
+*   Các thư viện được liệt kê trong `requirements.txt`.
 
 ## Cài Đặt
 
